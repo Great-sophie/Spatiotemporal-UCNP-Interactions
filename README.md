@@ -1,2 +1,11 @@
-# Spatiotemporal-UCNP-Interactions
-This project focuses on biomimetic upconversion nanoparticles (UCNPs) for spatiotemporal intracellular trafficking and organelle-proximal interactions. It offers simulation models, visualization tools, and optimization methods to enhance UCNP bioimaging and targeting, enabling advanced cellular analysis and nanomedicine applications.
+# Lyso(561)–UCNP positional analysis (cell-mask constrained)
+# + Robust load_series(): auto-harmonize frame shapes (crop/pad)
+# + Only segment/track/stat inside cell ROI
+# Outputs:
+#   - shape_report.csv
+#   - cell_mask.tif / cell_roi_dilated.tif
+#   - lyso_mask_*.tif / lyso_mask_stack.tif
+#   - ucnp_mask_*.tif / ucnp_mask_stack.tif
+#   - ucnp_label_stack.tif
+#   - points_distances.csv / track_metrics.csv / summary.txt
+#   - debug overlays
